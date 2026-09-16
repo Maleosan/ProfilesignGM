@@ -5,7 +5,9 @@ Website statik ringan untuk menampilkan foto profil karyawan, lalu bertransisi k
 ## Mengganti gambar
 
 - Ganti `assets/profile.jpg` dengan foto profil karyawan. Pertahankan nama file dan format `.jpg`.
-- Ganti `assets/signature.png` dengan satu gambar yang sudah memuat nama, tanda tangan, dan elemen visual lain. Pertahankan nama file dan format `.png`.
+- Ganti `assets/signature.png` dengan gambar tanda tangan transparan. Pertahankan nama file dan format `.png`.
+- Ganti `assets/logo.jpg` dengan logo perusahaan. Pertahankan nama file dan format `.jpg`.
+- Nama dan jabatan dapat diperbarui langsung di dalam `index.html`.
 
 Sebaiknya gunakan gambar yang sudah dikompresi agar halaman tetap cepat. Website akan menampilkan kedua gambar secara utuh tanpa memotong isinya.
 
@@ -16,7 +18,8 @@ Sebaiknya gunakan gambar yang sudah dikompresi agar halaman tetap cepat. Website
 ├── index.html
 ├── assets/
 │   ├── profile.jpg
-│   └── signature.png
+│   ├── signature.png
+│   └── logo.jpg
 └── README.md
 ```
 
