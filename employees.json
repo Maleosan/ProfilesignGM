@@ -22,5 +22,11 @@
     "position": "F&B MANAGER",
     "profile": "assets/employees/iwan/profile.jpg",
     "signature": "assets/employees/iwan/signature.png"
+  },
+  "zacharias": {
+    "name": "Zacharias Marshel Hendrik",
+    "position": "General Manager",
+    "profile": "assets/employees/zacharias/profile.jpg",
+    "signature": "assets/employees/zacharias/signature.png"
   }
 }
