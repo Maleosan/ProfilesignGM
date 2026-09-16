@@ -46,7 +46,18 @@
   };
 
   const renderProfile = async (employee, settings) => {
-    document.title = `${employee.name} — Profile & Signature`;
+    const firstName = employee.name.trim().split(/\s+/)[0];
+    document.title = `${settings.companyName}-${firstName}`;
+    const favicon = document.createElement("link");
+favicon.rel = "icon";
+favicon.type = "image/png";
+favicon.href = `${rootUrl}assets/logo.png`;
+document.head.appendChild(favicon);
+
+const appleIcon = document.createElement("link");
+appleIcon.rel = "apple-touch-icon";
+appleIcon.href = `${rootUrl}assets/logo.png`;
+document.head.appendChild(appleIcon);
 
     const viewer = document.createElement("main");
     viewer.className = "viewer";
