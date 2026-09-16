@@ -1,0 +1,20 @@
+{
+  "michael": {
+    "name": "Zacharias Marshel Hendrik",
+    "position": "General Manager",
+    "profile": "assets/employees/michael/profile.jpg",
+    "signature": "assets/employees/michael/signature.png"
+  },
+  "andi": {
+    "name": "Andi",
+    "position": "Front Office Manager",
+    "profile": "",
+    "signature": ""
+  },
+  "budi": {
+    "name": "Budi",
+    "position": "Food & Beverage Manager",
+    "profile": "",
+    "signature": ""
+  }
+}
